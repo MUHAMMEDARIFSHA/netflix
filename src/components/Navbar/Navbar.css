@@ -6,19 +6,47 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    height: 40px;
+    height: 50px;
 }
 
 .logo{
     position: fixed;
     left: 20px;
     width: 100px;
-    top: 8px;
+    top: 10px;
+    cursor: pointer;
 }
 
 .avatar{
     position: fixed;
     width: 30px;
     right: 20px;
-    top: 2px;
+    margin-top: 8px;
+    cursor: pointer;
+    
+}
+.names{
+    color: white;
+    margin-left: 150px;
+    cursor: pointer;
+    margin-top: 5px;
+    display: flex;
+
+    
+}
+.home{
+    margin-left: 20px;
+    margin-top: 6px;
+}
+.names-end{
+    color: white;
+    margin-right: 80px;
+    cursor: pointer;
+    margin-top: 12px;
+    display: flex;
+
+}
+.search{
+    margin-right: 20px;
+    margin-top: 2px;
 }
